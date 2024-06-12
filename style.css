@@ -1,0 +1,51 @@
+body{
+    margin-top: 0px;
+    padding: 0px;
+    display: grid;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+    height: 6vh;
+}
+/* .time1{
+    margin-left: .5vw;
+    margin-right: .5vw;
+} */
+#ampm{
+    width: 4vw;
+}
+#hours{
+    width: 7vw;
+    padding-left: 1vw;
+}
+#minutes{
+    width: 8vw;
+    padding-left: .5vw;
+    margin-right: 0vw;
+
+}
+#ampm{
+    width: 6vw;
+    padding-left: 1vw;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+.btn{
+    margin-bottom: 1vh;
+    width: 10vw;
+    place-self: center;
+}
+
+   
